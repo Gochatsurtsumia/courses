@@ -1,0 +1,12 @@
+package com.example.demo.dto;
+
+import lombok.Data;
+
+@Data
+public class CourseResponse {
+    private Long id;
+    private String title;
+    private String description;
+    private Double price;
+    private Integer capacity;
+}
